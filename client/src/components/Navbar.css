@@ -1,0 +1,59 @@
+/* Ensure content below navbar is not overlapped */
+body {
+    padding-top: 62px; /* Adjust according to your navbar height */
+  }
+  
+  /* Customize the navbar brand and icon */
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .navbar-brand .bi-rocket {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    transform: rotate(45deg); /* Rotating the icon */
+  }
+  
+  .navbar .nav-link {
+    color: white !important;
+  }
+  
+  .navbar .btn {
+    background-color: #007bff; /* Customize login button */
+    color: white;
+    border: none;
+  }
+  
+  .navbar .btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  .dropdown-menu {
+    background-color: #343a40; /* Dark dropdown background */
+  }
+  
+  .dropdown-menu a {
+    color: white !important;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #495057; /* Lighten on hover */
+  }
+  .nav-item .btn{
+    color:white;
+    background-color:rgb(112, 110, 110);
+    border-radius: 10px;
+    margin: 0;
+    padding:10px 20px;
+    transition: background-color .5s;
+    font-weight: bold;
+  }
+  .nav-item .btn:hover{
+    color:rgb(0, 0, 0);
+    background-color:rgb(255, 253, 253);
+    border-radius: 10px;
+    margin: 0;
+    padding:10px 20px;
+  }

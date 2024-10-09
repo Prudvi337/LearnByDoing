@@ -1,0 +1,9 @@
+.home{
+    background-image: url("../images/homebg.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:white;
+    margin: 0;
+}
