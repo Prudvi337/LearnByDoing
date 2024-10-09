@@ -3,6 +3,7 @@ import React from 'react';
 import './T&P.css';
 const Privacy = () => {
     return (
+        <>
         <div>
             <h1>Privacy Policy</h1>
         <p>At LearnByDoing, we are committed to protecting your privacy. This Privacy Policy outlines how we collect, use, and protect your personal information when you interact with our platform.</p>
@@ -51,12 +52,12 @@ const Privacy = () => {
         <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page, and we will notify you via email or platform notifications if the changes are significant. Your continued use of the platform after any updates signifies your acceptance of the revised policy.</p>
 
         <h2>8. Contact Us</h2>
-        <p>If you have any questions or concerns about this Privacy Policy or how we handle your personal information, please contact us at <strong>privacy@learnbydoing.com</strong>.</p>
-
-        <div class="back-to-home">
-            <p><a href="/">Back to Home</a></p>
+        <p>If you have any questions or concerns about this Privacy Policy or how we handle your personal information, please contact us at <strong><a href="mailto:privacy@learnbydoing.com" className='text-black'>privacy@learnbydoing.com</a></strong>.</p>
         </div>
-        </div>
+         <marquee behavior="alternate" className="bg-dark text-white align-content-center">
+         <p>&copy; 2024 LearnByDoing. All rights reserved.</p>
+     </marquee>
+    </>
     );
 };
 

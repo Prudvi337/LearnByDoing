@@ -1,7 +1,8 @@
 .foot{
-    border-top:2px solid rgb(124, 122, 122);
-    background-color: black;
-    color:white;
+    /* border-top:2px solid rgb(124, 122, 122); */
+    background-color: rgb(255, 255, 255);
+    padding:2px;
+    color:rgb(0, 0, 0);
 }
 .email-input {
     padding: 1px;
@@ -23,3 +24,7 @@
   .social-icons i:hover{
 color:red;
   }
+ .container p .link-hover:hover {
+    color: blue !important; ; /* Change this to your preferred hover color */
+}
+

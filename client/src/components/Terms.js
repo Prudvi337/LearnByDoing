@@ -1,10 +1,12 @@
 // src/components/Terms.js
 import React from 'react';
-import './T&P.css';
+import './Term.css';
 
 const Terms = () => {
+   
     return (
-        <div>
+        <>
+        <div className='term'>
             <h1>Terms and Conditions</h1>
         <p>Welcome to LearnByDoing, an online platform focused on project-based learning to enhance skills and promote real-world impact. By using this website, you agree to comply with these Terms and Conditions. Please read them carefully before engaging with the content or services provided.</p>
 
@@ -54,10 +56,12 @@ const Terms = () => {
         <h2>12. Termination</h2>
         <p>LearnByDoing reserves the right to terminate or suspend access to users who violate these Terms and Conditions, engage in misconduct, or misuse the platform.</p>
 
-        <div class="back-to-home">
-            <p><a href="/">Back to Home</a></p>
-        </div>
+       
     </div>
+     <marquee behavior="alternate" className="bg-dark text-white align-content-center">
+     <p>&copy; 2024 LearnByDoing. All rights reserved.</p>
+ </marquee>
+ </>
     );
 };
 
