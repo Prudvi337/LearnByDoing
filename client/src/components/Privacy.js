@@ -1,6 +1,6 @@
 // src/components/Privacy.js
 import React from 'react';
-import './T&P.css';
+import './Term.css';
 const Privacy = () => {
     return (
         <>
