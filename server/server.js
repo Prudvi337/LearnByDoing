@@ -1,4 +1,3 @@
-client/src/pages/ProjectsPage.js// server.js
 const express = require('express');
 const cors = require('cors');
 const connectDB = require('./config/db'); // Import the database connection

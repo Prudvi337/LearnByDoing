@@ -14,6 +14,8 @@ import UserProfileDelete from './pages/UserProfileDelete';
 import Auth from './pages/Auth';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Terms from './components/Terms';
+import Privacy from './components/Privacy';
 
 const App = () => {
   const [user, setUser] = useState(null);
@@ -43,6 +45,10 @@ const App = () => {
   return (
     <>
       <Navbar user={user} handleLogout={handleLogout} />
+      <Routes>
+          <Route path="/terms" element={<Terms />} />
+          <Route path="/privacy" element={<Privacy />} />
+      </Routes>
       <Routes>
         <Route path="/" element={<Home isLoggedIn={!!user} />} />
         <Route path="/login" element={<Auth setUser={setUser} />} />
