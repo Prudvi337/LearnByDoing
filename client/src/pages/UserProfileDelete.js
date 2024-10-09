@@ -14,12 +14,12 @@ const UserProfileDelete = () => {
       {/* Replace the hardcoded user list with actual user data from your backend */}
       <ul className="list-group">
         <li className="list-group-item d-flex justify-content-between align-items-center">
-          User 1
-          <button className="btn btn-danger" onClick={() => handleDelete(1)}>Delete</button>
+        user1
+          <button className="btn btn-danger w-25" onClick={() => handleDelete(1)}>Delete</button>
         </li>
         <li className="list-group-item d-flex justify-content-between align-items-center">
-          User 2
-          <button className="btn btn-danger" onClick={() => handleDelete(2)}>Delete</button>
+        user2
+          <button className="btn btn-danger w-25" onClick={() => handleDelete(2)}>Delete</button>
         </li>
         {/* Add more users as needed */}
       </ul>

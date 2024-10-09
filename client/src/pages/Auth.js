@@ -179,7 +179,7 @@ const Auth = ({ setUser }) => {
             <button type="submit" className="btn btn1">{isLogin ? 'LOGIN' : 'SIGN UP'}</button>
           </form>
           <div className="social-login">
-            <p>or use your email for registration</p>
+            <p className='text-white font-weight-bold'>or use your email for registration</p>
             <div className="social-icons">
               <i className="fab fa-facebook"></i>
               <i className="fab fa-google"></i>

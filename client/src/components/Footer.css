@@ -3,3 +3,23 @@
     background-color: black;
     color:white;
 }
+.email-input {
+    padding: 1px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+  }
+  
+  .send-button {
+    
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #075595;
+    color: white;
+    cursor: pointer;
+  }
+  .social-icons i:hover{
+color:red;
+  }

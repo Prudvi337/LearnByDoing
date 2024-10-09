@@ -1,10 +1,10 @@
-// server.js
+client/src/pages/ProjectsPage.js// server.js
 const express = require('express');
 const cors = require('cors');
 const connectDB = require('./config/db'); // Import the database connection
 const projectRoutes = require('./routes/projectRoutes');
 require('dotenv').config();
-const userRoutes = require('./routes/user');
+// const userRoutes = require('./routes/user');
 const app = express();
 const PORT = process.env.PORT || 5000;
 
@@ -17,7 +17,7 @@ connectDB(); // Call the connectDB function
 
 // Routes
 app.use('/api/projects', projectRoutes);
-app.use('/api/user', userRoutes);
+// app.use('/api/user', userRoutes);
 
 // Start server
 app.listen(PORT, () => {

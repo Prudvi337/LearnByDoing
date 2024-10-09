@@ -77,7 +77,7 @@ export default function EnhancedProjectDashboard() {
                     : `${project.description.substring(0, DESCRIPTION_LIMIT)}${project.description.length > DESCRIPTION_LIMIT ? '...' : ''}`
                   }
                   {project.description.length > DESCRIPTION_LIMIT && (
-                    <a href="/" onClick={() => handleReadMore(project)}>
+                    <a href="#" onClick={() => handleReadMore(project)}>
                       {expandedProject === project ? ' Show Less' : ' Read More'}
                     </a>
                   )}
@@ -86,7 +86,7 @@ export default function EnhancedProjectDashboard() {
                 <p className="card-text">Duration: {project.duration}</p>
                 <span>
                   {project.roles.map((role, roleIndex) => (
-                    <span className="badge bg-secondary text-bg-dark mx-2 my-1" key={roleIndex}>
+                    <span className="badge bg-black mx-2 my-1" key={roleIndex}>
                       {role}
                     </span>
                   ))}
