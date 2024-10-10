@@ -1,5 +1,9 @@
 .home{
-    background-image: url("../images/homebg.jpg");
+    /* background-image:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,4,77,1) 17%, rgba(9,9,121,1) 35%),url("../images/homebg.jpg"); */
+    background-image: 
+  linear-gradient(90deg, rgba(64, 63, 77, 0.5) 0%, rgba(64, 64, 67, 0.5) 17%, rgba(32, 32, 33, 0.5) 35%), 
+  url("../images/homebg.jpg");
+background-size: cover;
     background-position: center;
     background-size: cover;
     font-family: 'Times New Roman', Times, serif;
