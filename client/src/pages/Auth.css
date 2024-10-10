@@ -51,6 +51,7 @@
     border: 1px solid #ddd;
     background: none;
     font-size: 16px;
+    color:white;
   }
   .auth-right ::placeholder{
     color:white;

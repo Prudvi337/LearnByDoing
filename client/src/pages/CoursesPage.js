@@ -60,8 +60,8 @@ const CoursesPage = () => {
     return (
         <div className="bg-light">
             <Navbar /> {/* Use the Navbar here */}
-            <div className="container">
-                <h4 className="mb-4">Courses</h4>
+            <div className="container mt-4">
+                {/* <h4 className="mb-4">Courses</h4> */}
                 <div className="row">
                     {courses.map((course, index) => (
                         <div key={index} className="col-md-4 mb-4">
