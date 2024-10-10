@@ -1,0 +1,208 @@
+[
+    {
+      "role": "Frontend Developer",
+      "questions": [
+        {
+          "question": "What is React?",
+          "options": ["A backend framework", "A database", "A frontend library"],
+          "correctAnswer": "A frontend library"
+        },
+        {
+          "question": "What is JSX?",
+          "options": ["A JavaScript syntax extension", "A CSS preprocessor", "A type of API"],
+          "correctAnswer": "A JavaScript syntax extension"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": ["Cascading Style Sheets", "Creative Style Sheets", "Colorful Style Sheets"],
+          "correctAnswer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which HTML tag is used to define an internal style sheet?",
+          "options": ["<css>", "<style>", "<script>"],
+          "correctAnswer": "<style>"
+        },
+        {
+          "question": "Which property is used to change the font of an element?",
+          "options": ["font-family", "text-font", "font-style"],
+          "correctAnswer": "font-family"
+        },
+        {
+          "question": "Which HTML attribute is used to define inline styles?",
+          "options": ["style", "class", "font"],
+          "correctAnswer": "style"
+        },
+        {
+          "question": "What is the main purpose of JavaScript?",
+          "options": ["To style web pages", "To create interactive web pages", "To manage databases"],
+          "correctAnswer": "To create interactive web pages"
+        },
+        {
+          "question": "What does the 'alt' attribute do in an <img> tag?",
+          "options": ["Specifies an alternative text for the image", "Sets the image source", "Defines the image size"],
+          "correctAnswer": "Specifies an alternative text for the image"
+        },
+        {
+          "question": "Which of the following is a JavaScript framework?",
+          "options": ["React", "Django", "Flask"],
+          "correctAnswer": "React"
+        },
+        {
+          "question": "What does the 'box model' in CSS represent?",
+          "options": ["Margins, borders, padding, and content", "The layout of elements", "CSS selectors"],
+          "correctAnswer": "Margins, borders, padding, and content"
+        },
+        {
+          "question": "Which HTML element is used to create an unordered list?",
+          "options": ["<ul>", "<ol>", "<li>"],
+          "correctAnswer": "<ul>"
+        },
+        {
+          "question": "What is the purpose of the <div> tag in HTML?",
+          "options": ["To define a division or section", "To create a link", "To insert an image"],
+          "correctAnswer": "To define a division or section"
+        },
+        {
+          "question": "What does a CSS preprocessor do?",
+          "options": ["Compiles CSS into JavaScript", "Adds variables and nesting to CSS", "Minifies CSS files"],
+          "correctAnswer": "Adds variables and nesting to CSS"
+        },
+        {
+          "question": "Which property is used to set the text color in CSS?",
+          "options": ["color", "font-color", "text-color"],
+          "correctAnswer": "color"
+        },
+        {
+          "question": "What is the correct way to add a comment in CSS?",
+          "options": ["// This is a comment", "/* This is a comment */", "<!-- This is a comment -->"],
+          "correctAnswer": "/* This is a comment */"
+        },
+        {
+          "question": "Which HTML tag is used to create a hyperlink?",
+          "options": ["<link>", "<a>", "<href>"],
+          "correctAnswer": "<a>"
+        },
+        {
+          "question": "What is the purpose of media queries in CSS?",
+          "options": ["To apply styles based on device characteristics", "To add animations", "To define keyframes"],
+          "correctAnswer": "To apply styles based on device characteristics"
+        },
+        {
+          "question": "Which CSS property controls the text size?",
+          "options": ["font-size", "text-size", "size"],
+          "correctAnswer": "font-size"
+        },
+        {
+          "question": "What does the z-index property do in CSS?",
+          "options": ["Defines the order of overlapping elements", "Sets the font size", "Changes the background color"],
+          "correctAnswer": "Defines the order of overlapping elements"
+        },
+        {
+            "question": "What does the z-index property do in CSS?",
+            "options": ["Defines the order of overlapping elements", "Sets the font size", "Changes the background color"],
+            "correctAnswer": "Defines the order of overlapping elements"
+          }
+      ]
+    },
+    {
+      "role": "Backend Developer",
+      "questions": [
+        {
+          "question": "What is Node.js?",
+          "options": ["A frontend framework", "A backend runtime", "A database"],
+          "correctAnswer": "A backend runtime"
+        },
+        {
+          "question": "Which of the following is a popular back-end language?",
+          "options": ["Python", "HTML", "CSS"],
+          "correctAnswer": "Python"
+        },
+        {
+          "question": "What does REST stand for?",
+          "options": ["Representational State Transfer", "Resource State Transfer", "Representational Service Transfer"],
+          "correctAnswer": "Representational State Transfer"
+        },
+        {
+          "question": "What is Express.js?",
+          "options": ["A frontend framework", "A web application framework for Node.js", "A database management system"],
+          "correctAnswer": "A web application framework for Node.js"
+        },
+        {
+          "question": "Which database is commonly used with Node.js?",
+          "options": ["MongoDB", "MySQL", "SQLite"],
+          "correctAnswer": "MongoDB"
+        },
+        {
+          "question": "What is a middleware in Express.js?",
+          "options": ["A function that processes requests", "A type of database", "A framework for building APIs"],
+          "correctAnswer": "A function that processes requests"
+        },
+        {
+          "question": "What is the purpose of the package.json file?",
+          "options": ["To manage project dependencies", "To store database configurations", "To define routes"],
+          "correctAnswer": "To manage project dependencies"
+        },
+        {
+          "question": "What does SQL stand for?",
+          "options": ["Structured Query Language", "Standard Query Language", "Simple Query Language"],
+          "correctAnswer": "Structured Query Language"
+        },
+        {
+          "question": "Which HTTP method is used to send data to the server?",
+          "options": ["GET", "POST", "DELETE"],
+          "correctAnswer": "POST"
+        },
+        {
+          "question": "What is the purpose of the Node Package Manager (NPM)?",
+          "options": ["To manage Node.js versions", "To install and manage packages", "To run Node.js applications"],
+          "correctAnswer": "To install and manage packages"
+        },
+        {
+          "question": "Which of the following is a NoSQL database?",
+          "options": ["MySQL", "PostgreSQL", "MongoDB"],
+          "correctAnswer": "MongoDB"
+        },
+        {
+          "question": "What is an API?",
+          "options": ["A set of protocols for building software", "A database management system", "A programming language"],
+          "correctAnswer": "A set of protocols for building software"
+        },
+        {
+          "question": "Which command is used to initialize a new Node.js project?",
+          "options": ["npm init", "node init", "npm start"],
+          "correctAnswer": "npm init"
+        },
+        {
+          "question": "What is JSON?",
+          "options": ["A markup language", "A data interchange format", "A programming language"],
+          "correctAnswer": "A data interchange format"
+        },
+        {
+          "question": "What does CORS stand for?",
+          "options": ["Cross-Origin Resource Sharing", "Cross-Origin Request Sharing", "Cross-Origin Response Sharing"],
+          "correctAnswer": "Cross-Origin Resource Sharing"
+        },
+        {
+          "question": "What is the purpose of the 'await' keyword in JavaScript?",
+          "options": ["To define asynchronous functions", "To wait for a Promise to resolve", "To pause execution"],
+          "correctAnswer": "To wait for a Promise to resolve"
+        },
+        {
+          "question": "Which command is used to install a package globally in NPM?",
+          "options": ["npm install package-name", "npm install -g package-name", "npm add package-name"],
+          "correctAnswer": "npm install -g package-name"
+        },
+        {
+          "question": "What is the use of the dotenv package?",
+          "options": ["To manage environment variables", "To create REST APIs", "To connect to databases"],
+          "correctAnswer": "To manage environment variables"
+        },
+        {
+          "question": "Which method is used to parse incoming JSON requests in Express.js?",
+          "options": ["app.use(bodyParser.json())", "app.use(express.json())", "app.use(jsonParser())"],
+          "correctAnswer": "app.use(express.json())"
+        }
+      ]
+    }
+  ]
+  
