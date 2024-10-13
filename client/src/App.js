@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { Route, Routes, useNavigate } from 'react-router-dom';
 import Navbar from './components/Navbar';
@@ -16,6 +17,8 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Terms from './components/Terms';
 import Privacy from './components/Privacy';
+import ChangePassword from './components/ChangePassword';
+import UpdateProfile from './components/UpdateProfile';
 
 const App = () => {
   const [user, setUser] = useState(null);
@@ -46,25 +49,28 @@ const App = () => {
     <>
       <Navbar user={user} handleLogout={handleLogout} />
       <Routes>
-          <Route path="/terms" element={<Terms />} />
-          <Route path="/privacy" element={<Privacy />} />
-      </Routes>
-      <Routes>
+        {/* Public Routes */}
         <Route path="/" element={<Home isLoggedIn={!!user} />} />
         <Route path="/login" element={<Auth setUser={setUser} />} />
-        <Route path="/user" element={<UserProfile />} />
-        <Route path="/admin" element={<AdminProfile />} />
+        <Route path="/user" element={<UserProfile user={user} />} />
+        <Route path="/update-profile" element={<UpdateProfile />} />
+        <Route path="/change-password" element={<ChangePassword />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/terms" element={<Terms />} />
+        <Route path="/privacy" element={<Privacy />} />
 
         {/* Admin Routes */}
         {user && user.role === 'admin' && (
           <>
+            <Route path="/admin" element={<AdminProfile />} />
+
             <Route path="/add-projects" element={<AddProjects />} />
             <Route path="/add-courses" element={<AddCourses />} />
             <Route path="/user-delete" element={<UserProfileDelete />} />
+
           </>
         )}
       </Routes>
