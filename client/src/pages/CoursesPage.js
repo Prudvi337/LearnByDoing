@@ -8,6 +8,7 @@ const CoursesPage = () => {
     const [selectedCourse, setSelectedCourse] = useState(null);
     const [email, setEmail] = useState('');
     const [courses, setCourses] = useState([]); // State to store fetched courses
+    const [searchTerm, setSearchTerm] = useState(''); // State for search input
 
     // Fetch courses from the backend using fetch API
     useEffect(() => {
@@ -57,13 +58,28 @@ const CoursesPage = () => {
             });
     };
 
+    // Filter courses based on the search term
+    const filteredCourses = courses.filter((course) =>
+        course.title.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+
     return (
         <div className="bg-light">
             <Navbar /> {/* Use the Navbar here */}
             <div className="container mt-4">
-                {/* <h4 className="mb-4">Courses</h4> */}
+                <div className="row mb-3">
+                    <div className="col">
+                        <input
+                            type="text"
+                            className="form-control"
+                            placeholder="Search for a course..."
+                            value={searchTerm}
+                            onChange={(e) => setSearchTerm(e.target.value)}
+                        />
+                    </div>
+                </div>
                 <div className="row">
-                    {courses.map((course, index) => (
+                    {filteredCourses.map((course, index) => (
                         <div key={index} className="col-md-4 mb-4">
                             <div className="card h-100">
                                 <div className="card-body d-flex flex-column">

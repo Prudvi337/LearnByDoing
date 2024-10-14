@@ -15,7 +15,7 @@ const AddProject = () => {
   const [editMode, setEditMode] = useState(false); // To track if in edit mode
   const [currentProjectId, setCurrentProjectId] = useState(null); // To track current editing project
   const [visibleCount, setVisibleCount] = useState(1); // Initial count of visible projects
-
+  const [projectPlan, setProjectPlan] = useState(null);
   useEffect(() => {
     fetchProjects(); // Fetch projects on component mount
   }, []);
@@ -49,6 +49,7 @@ const AddProject = () => {
         duration,
         roles: roles.filter(role => role !== ''), // Filter out empty roles
         status,
+        projectPlan
       };
 
       if (editMode) {
@@ -180,6 +181,14 @@ const AddProject = () => {
             <option value="completed">Completed</option>
           </Form.Control>
         </Form.Group>
+        <Form.Group controlId="formProjectPlan">
+    <Form.Label>Upload Project Plan (PDF)</Form.Label>
+    <Form.Control
+      type="file"
+      accept=".pdf"
+      onChange={(e) => setProjectPlan(e.target.files[0])} // Handle file input
+    />
+  </Form.Group>
         <Button variant="primary" type="submit" className="mt-3 w-25">
           {editMode ? 'Update Project' : 'Add Project'}
         </Button>

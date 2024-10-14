@@ -1,4 +1,3 @@
-// models/Project.js
 const mongoose = require('mongoose');
 
 const projectSchema = new mongoose.Schema({
@@ -27,6 +26,10 @@ const projectSchema = new mongoose.Schema({
     enum: ['upcoming', 'in-progress', 'completed'],
     default: 'upcoming',
   },
+  projectPlanPDF: {
+    type: String, // This field will store the file path or URL to the project plan PDF
+    required: false, // Make it optional if the project plan PDF might not always be available
+  }
 });
 
 const Project = mongoose.model('Project', projectSchema);
