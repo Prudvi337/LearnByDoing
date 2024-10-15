@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import emailjs from 'emailjs-com';
-import Navbar from '../components/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const CoursesPage = () => {
@@ -65,7 +64,7 @@ const CoursesPage = () => {
 
     return (
         <div className="bg-light">
-            <Navbar /> {/* Use the Navbar here */}
+             {/* Use the Navbar here */}
             <div className="container mt-4">
                 <div className="row mb-3">
                     <div className="col">

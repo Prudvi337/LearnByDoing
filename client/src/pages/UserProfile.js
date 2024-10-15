@@ -11,7 +11,7 @@ const UserProfile = ()=> {
 
   // State to store the email, role, education, phone, social links, and photo URL
   const [email, setEmail] = useState('');
-  const [role, setRole] = useState('');
+   const [role, setRole] = useState('');
   const [education, setEducation] = useState('');
   const [phone, setPhone] = useState('');
   const [socialLinks, setSocialLinks] = useState({ linkedin: '', twitter: '', github: '' });
@@ -51,7 +51,7 @@ const UserProfile = ()=> {
       } else {
         // User is not authenticated
         setEmail(''); // Set to an empty string or handle as needed
-        setRole('Not provided'); // Default role when not authenticated
+        // setRole('Not provided'); // Default role when not authenticated
         setEducation('Not provided'); // Default education when not authenticated
         setPhone('Not provided'); // Default phone when not authenticated
         setSocialLinks({ linkedin: '', twitter: '', github: '' }); // Default social links when not authenticated
