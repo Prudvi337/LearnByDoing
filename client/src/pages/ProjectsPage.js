@@ -188,7 +188,7 @@ export default function EnhancedProjectDashboard() {
           />
         </div>
         <div className="row">
-          {projects.map((project) => (
+          {filteredProjects.map((project) => (
             <div className="col-12 col-md-6 col-lg-4 mb-4" key={project._id}>
               <div className="card mb-3">
                 <div className="card-body">
