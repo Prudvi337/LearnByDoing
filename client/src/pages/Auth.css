@@ -101,4 +101,5 @@
   .auth-box-signup{
     height:76vh;
   }
-  
+  p:hover{cursor:pointer;
+  }
