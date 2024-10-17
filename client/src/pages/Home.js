@@ -90,7 +90,7 @@ const projects = [
 
   return (
     <main>
-      <div className="bg-light text-center py-5 home">
+      <div className="text-center py-5 home">
         <div className="container">
           <h1 className="display-4 text-wrap" style={{ whiteSpace: 'pre' }}>
             {displayedText}
@@ -180,7 +180,7 @@ const projects = [
         </div>
       </div>
 
-      <div className="bg-light text-center py-5">
+      <div className="text-center py-5">
         <div className="container">
           <h2 className="mb-4">Start Collaborating Today</h2>
           <p className="lead">

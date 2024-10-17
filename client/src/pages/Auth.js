@@ -108,7 +108,7 @@ const Auth = ({ setUser }) => {
 
   return (
     <>
-    <div className="auth-container ">
+    <div className="auth-container">
       <div className={`auth-box ${isLogin ? 'auth-box-signin' : 'auth-box-signup'}`}>
         <div className="auth-left">
           <h2><span style={{ display: 'inline-block', transform: 'rotate(45deg)', marginRight: '5px' }}>

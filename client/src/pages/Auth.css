@@ -3,7 +3,9 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image:url("../images/loginbg.jpg")
+    background-image:url("../images/loginbg.jpg");
+    width:100vw;
+    background-size: cover;
      /* box-shadow: 0 0 10px 10px black; */
   }
   
